@@ -1,6 +1,6 @@
 {
+  "@context": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/context.jsonld",
   "a": "http://www.google.es",
   "b": 198,
-  "d": "agreed",
-  "@context": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/context.jsonld"
+  "d": "agreed"
 }

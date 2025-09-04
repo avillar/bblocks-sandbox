@@ -9,7 +9,7 @@
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
-  "dateOfLastChange": "2023-04-05",
+  "dateOfLastChange": "2025-09-04",
   "link": "https://github.com/opengeospatial/bblock-template",
   "sources": [
     {
@@ -26,16 +26,11 @@
     "http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/historical-location",
     "http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/thing"
   ],
-  "schema": {
-    "application/yaml": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/remote-cache/schema.yaml",
-    "application/json": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/remote-cache/schema.json"
-  },
-  "shaclRules": {},
-  "remoteCacheDir": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/remote-cache/remote_cache/",
-  "sourceSchema": "https://defs-dev.opengis.net/static/sample-schema.yml",
+  "shaclShapes": {},
   "sourceFiles": "https://avillar.github.io/bblocks-sandbox/_sources/remote-cache/",
+  "rdfData": [],
   "validationPassed": true,
-  "annotatedSchema": "properties:\n  myProp:\n    type: string\n",
+  "annotatedSchema": null,
   "gitRepository": "https://github.com/avillar/bblocks-sandbox",
   "gitPath": "_sources/remote-cache"
 }

@@ -2,7 +2,7 @@
   "title": "Validation report for avillar.sandbox.my-building-block - My Building Block",
   "bblockName": "My Building Block",
   "bblockId": "avillar.sandbox.my-building-block",
-  "generated": "2024-09-03T08:44:27.446540+00:00",
+  "generated": "2025-09-04T09:20:36.002027+00:00",
   "result": false,
   "items": [
     {
@@ -246,7 +246,7 @@
             {
               "exception": "ValueError",
               "isError": true,
-              "message": "Traceback (most recent call last):\n,  File \"/src/ogc/bblocks/validate.py\", line 184, in _validate_resource\n    result = validator.validate(filename, output_filename, report,\n,  File \"/src/ogc/bblocks/validation/rdf.py\", line 299, in validate\n    graph = self._load_graph(filename, output_filename, report, contents, base_uri, prefixes)\n,  File \"/src/ogc/bblocks/validation/rdf.py\", line 163, in _load_graph\n    json_doc = self.uplifter.pre_uplift(report, json_doc)\n,  File \"/src/ogc/bblocks/validation/uplift.py\", line 40, in pre_uplift\n    return self._run_steps('pre', report, json_doc)\n,  File \"/src/ogc/bblocks/validation/uplift.py\", line 36, in _run_steps\n    input_data = getattr(self, func_name)(code, input_data, *args)\n,  File \"/src/ogc/bblocks/validation/uplift.py\", line 47, in _pre_jq\n    return jq.compile(code).input_value(json_doc).first()\n,  File \"jq.pyx\", line 322, in jq._ProgramWithInput.first\n,  File \"jq.pyx\", line 366, in jq._ResultIterator.__next__\n,ValueError: null (null) and number (66) cannot be multiplied\n"
+              "message": "Traceback (most recent call last):\n,  File \"/src/ogc/bblocks/validate.py\", line 186, in _validate_resource\n    result = validator.validate(filename, output_filename, report,\n,  File \"/src/ogc/bblocks/validation/rdf.py\", line 314, in validate\n    graph = self._load_graph(filename, output_filename, report,\n,  File \"/src/ogc/bblocks/validation/rdf.py\", line 171, in _load_graph\n    json_doc = self.uplifter.pre_uplift(report, json_doc)\n,  File \"/src/ogc/bblocks/validation/uplift.py\", line 40, in pre_uplift\n    return self._run_steps('pre', report, json_doc)\n,  File \"/src/ogc/bblocks/validation/uplift.py\", line 36, in _run_steps\n    input_data = getattr(self, func_name)(code, input_data, *args)\n,  File \"/src/ogc/bblocks/validation/uplift.py\", line 47, in _pre_jq\n    return jq.compile(code).input_value(json_doc).first()\n,  File \"jq.pyx\", line 329, in jq._ProgramWithInput.first\n,  File \"jq.pyx\", line 373, in jq._ResultIterator.__next__\n,ValueError: null (null) and number (66) cannot be multiplied\n"
             }
           ]
         }
@@ -428,7 +428,7 @@
         "url": "https://avillar.github.io/bblocks-sandbox/build/tests/sandbox/my-building-block/example_3_1.json",
         "exampleIndex": 3,
         "snippetIndex": 1,
-        "language": "json"
+        "language": "application/json"
       },
       "result": true,
       "sections": [
@@ -509,7 +509,7 @@
         "url": "https://avillar.github.io/bblocks-sandbox/build/tests/sandbox/my-building-block/example_4_1.ttl",
         "exampleIndex": 4,
         "snippetIndex": 1,
-        "language": "ttl"
+        "language": "text/turtle"
       },
       "result": true,
       "sections": [
@@ -551,7 +551,7 @@
         "url": "https://avillar.github.io/bblocks-sandbox/build/tests/sandbox/my-building-block/example_5_1.json",
         "exampleIndex": 5,
         "snippetIndex": 1,
-        "language": "json"
+        "language": "application/json"
       },
       "result": false,
       "sections": [
@@ -601,7 +601,7 @@
             {
               "exception": "ValueError",
               "isError": true,
-              "message": "Traceback (most recent call last):\n,  File \"/src/ogc/bblocks/validate.py\", line 184, in _validate_resource\n    result = validator.validate(filename, output_filename, report,\n,  File \"/src/ogc/bblocks/validation/rdf.py\", line 299, in validate\n    graph = self._load_graph(filename, output_filename, report, contents, base_uri, prefixes)\n,  File \"/src/ogc/bblocks/validation/rdf.py\", line 163, in _load_graph\n    json_doc = self.uplifter.pre_uplift(report, json_doc)\n,  File \"/src/ogc/bblocks/validation/uplift.py\", line 40, in pre_uplift\n    return self._run_steps('pre', report, json_doc)\n,  File \"/src/ogc/bblocks/validation/uplift.py\", line 36, in _run_steps\n    input_data = getattr(self, func_name)(code, input_data, *args)\n,  File \"/src/ogc/bblocks/validation/uplift.py\", line 47, in _pre_jq\n    return jq.compile(code).input_value(json_doc).first()\n,  File \"jq.pyx\", line 322, in jq._ProgramWithInput.first\n,  File \"jq.pyx\", line 366, in jq._ResultIterator.__next__\n,ValueError: null (null) and number (66) cannot be multiplied\n"
+              "message": "Traceback (most recent call last):\n,  File \"/src/ogc/bblocks/validate.py\", line 186, in _validate_resource\n    result = validator.validate(filename, output_filename, report,\n,  File \"/src/ogc/bblocks/validation/rdf.py\", line 314, in validate\n    graph = self._load_graph(filename, output_filename, report,\n,  File \"/src/ogc/bblocks/validation/rdf.py\", line 171, in _load_graph\n    json_doc = self.uplifter.pre_uplift(report, json_doc)\n,  File \"/src/ogc/bblocks/validation/uplift.py\", line 40, in pre_uplift\n    return self._run_steps('pre', report, json_doc)\n,  File \"/src/ogc/bblocks/validation/uplift.py\", line 36, in _run_steps\n    input_data = getattr(self, func_name)(code, input_data, *args)\n,  File \"/src/ogc/bblocks/validation/uplift.py\", line 47, in _pre_jq\n    return jq.compile(code).input_value(json_doc).first()\n,  File \"jq.pyx\", line 329, in jq._ProgramWithInput.first\n,  File \"jq.pyx\", line 373, in jq._ResultIterator.__next__\n,ValueError: null (null) and number (66) cannot be multiplied\n"
             }
           ]
         }
@@ -615,7 +615,7 @@
         "url": "https://avillar.github.io/bblocks-sandbox/build/tests/sandbox/my-building-block/example_6_1.jsonld",
         "exampleIndex": 6,
         "snippetIndex": 1,
-        "language": "jsonld"
+        "language": "application/ld+json"
       },
       "result": false,
       "sections": [

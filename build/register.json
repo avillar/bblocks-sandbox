@@ -2,12 +2,12 @@
   "name": "My OGC Building Blocks repository",
   "abstract": "This is an example text for the abstract. It should be short and to the point.\nA \"Tell me more\" link will appear if there is an additional description with a longer explanation.\n",
   "description": "The description can be longer. Both **the abstract** *and the description* support Markdown,\nincluding [links](https://google.es).\n",
-  "modified": "2024-09-03T08:44:25.150709",
+  "modified": "2025-09-04T09:20:34.217770",
   "tooling": {
     "bblocks-postprocess": {
-      "commitId": "\"34b61f9a9f65e036163cb351828202cc5af9f964",
-      "shortCommitId": "\"34b61f",
-      "date": "2024-09-03T08:42:40+00:00\""
+      "commitId": "\"7706428cacea50013f04585b5be2d7d29b7b2d9b",
+      "shortCommitId": "\"770642",
+      "date": "2025-08-25T11:10:01+00:00\""
     }
   },
   "gitRepository": "https://github.com/avillar/bblocks-sandbox",
@@ -29,14 +29,15 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2023-04-05",
-      "shaclRules": {},
+      "dateOfLastChange": "2025-09-04",
+      "shaclShapes": {},
       "schema": {
         "application/yaml": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/enumerations/legalStatus/schema.yaml",
         "application/json": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/enumerations/legalStatus/schema.json"
       },
       "sourceSchema": "https://avillar.github.io/bblocks-sandbox/_sources/enumerations/legalStatus/schema.yaml",
       "sourceFiles": "https://avillar.github.io/bblocks-sandbox/_sources/enumerations/legalStatus/",
+      "rdfData": [],
       "validationPassed": true,
       "documentation": {
         "markdown": {
@@ -62,7 +63,7 @@
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2023-04-05",
+      "dateOfLastChange": "2025-09-04",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -79,14 +80,9 @@
         "http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/historical-location",
         "http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/thing"
       ],
-      "schema": {
-        "application/yaml": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/remote-cache/schema.yaml",
-        "application/json": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/remote-cache/schema.json"
-      },
-      "shaclRules": {},
-      "remoteCacheDir": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/remote-cache/remote_cache/",
-      "sourceSchema": "https://defs-dev.opengis.net/static/sample-schema.yml",
+      "shaclShapes": {},
       "sourceFiles": "https://avillar.github.io/bblocks-sandbox/_sources/remote-cache/",
+      "rdfData": [],
       "validationPassed": true,
       "documentation": {
         "markdown": {
@@ -106,13 +102,13 @@
     {
       "itemIdentifier": "avillar.sandbox.my-building-block",
       "name": "My Building Block",
-      "abstract": "This Building Block serves as a template to create new ones",
+      "abstract": "This Building Block serves as a template to create new ones - Test to force build",
       "status": "under-development",
       "dateTimeAddition": "2023-04-05T00:00:00Z",
       "itemClass": "schema",
       "register": "ogc-building-block-register",
       "version": "0.1",
-      "dateOfLastChange": "2023-04-05",
+      "dateOfLastChange": "2025-09-04",
       "link": "https://github.com/opengeospatial/bblock-template",
       "sources": [
         {
@@ -129,7 +125,7 @@
         "http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/historical-location",
         "http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/thing"
       ],
-      "shaclRules": {},
+      "shaclShapes": {},
       "dependsOn": [
         "avillar.sandbox.enumerations.legalStatus"
       ],
@@ -141,6 +137,7 @@
       "sourceSchema": "https://avillar.github.io/bblocks-sandbox/_sources/my-building-block/schema.yaml",
       "sourceLdContext": "https://avillar.github.io/bblocks-sandbox/_sources/my-building-block/context.jsonld",
       "sourceFiles": "https://avillar.github.io/bblocks-sandbox/_sources/my-building-block/",
+      "rdfData": [],
       "validationPassed": false,
       "testOutputs": "https://github.com/avillar/bblocks-sandbox/blob/master/build/tests/sandbox/my-building-block/",
       "documentation": {
@@ -158,5 +155,6 @@
         }
       }
     }
-  ]
+  ],
+  "remoteCacheDir": "https://avillar.github.io/bblocks-sandbox/build/annotated/_cache"
 }

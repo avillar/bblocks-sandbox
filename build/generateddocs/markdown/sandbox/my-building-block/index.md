@@ -3,7 +3,7 @@
 
 `avillar.sandbox.my-building-block` *v0.1*
 
-This Building Block serves as a template to create new ones
+This Building Block serves as a template to create new ones - Test to force build
 
 [*Status*](http://www.opengis.net/def/status): Under development
 
@@ -73,10 +73,10 @@ console.log('Hello, world!')
 #### jsonld
 ```jsonld
 {
+  "@context": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/context.jsonld",
   "a": "http://www.google.es",
   "b": 198,
-  "d": "agreed",
-  "@context": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/context.jsonld"
+  "d": "agreed"
 }
 ```
 

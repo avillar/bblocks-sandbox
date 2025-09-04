@@ -9,14 +9,15 @@
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
-  "dateOfLastChange": "2023-04-05",
-  "shaclRules": {},
+  "dateOfLastChange": "2025-09-04",
+  "shaclShapes": {},
   "schema": {
     "application/yaml": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/enumerations/legalStatus/schema.yaml",
     "application/json": "https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/enumerations/legalStatus/schema.json"
   },
   "sourceSchema": "https://avillar.github.io/bblocks-sandbox/_sources/enumerations/legalStatus/schema.yaml",
   "sourceFiles": "https://avillar.github.io/bblocks-sandbox/_sources/enumerations/legalStatus/",
+  "rdfData": [],
   "validationPassed": true,
   "annotatedSchema": "type: string\nenum:\n- agreed\n- notAgreed\n",
   "gitRepository": "https://github.com/avillar/bblocks-sandbox",

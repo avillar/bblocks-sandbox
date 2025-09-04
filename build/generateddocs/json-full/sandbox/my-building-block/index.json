@@ -3,13 +3,13 @@
 {
   "itemIdentifier": "avillar.sandbox.my-building-block",
   "name": "My Building Block",
-  "abstract": "This Building Block serves as a template to create new ones",
+  "abstract": "This Building Block serves as a template to create new ones - Test to force build",
   "status": "under-development",
   "dateTimeAddition": "2023-04-05T00:00:00Z",
   "itemClass": "schema",
   "register": "ogc-building-block-register",
   "version": "0.1",
-  "dateOfLastChange": "2023-04-05",
+  "dateOfLastChange": "2025-09-04",
   "link": "https://github.com/opengeospatial/bblock-template",
   "sources": [
     {
@@ -26,7 +26,7 @@
     "http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/historical-location",
     "http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/thing"
   ],
-  "shaclRules": {},
+  "shaclShapes": {},
   "dependsOn": [
     "avillar.sandbox.enumerations.legalStatus"
   ],
@@ -38,6 +38,7 @@
   "sourceSchema": "https://avillar.github.io/bblocks-sandbox/_sources/my-building-block/schema.yaml",
   "sourceLdContext": "https://avillar.github.io/bblocks-sandbox/_sources/my-building-block/context.jsonld",
   "sourceFiles": "https://avillar.github.io/bblocks-sandbox/_sources/my-building-block/",
+  "rdfData": [],
   "validationPassed": false,
   "testOutputs": "https://github.com/avillar/bblocks-sandbox/blob/master/build/tests/sandbox/my-building-block/",
   "description": "## Qui hastarum tectus Cithaeron iuvabat\n\nLorem markdownum vestigia sanguine rursus undis, suspenderat meo mox conlegerat\ntemperat sucos. Est graves dant sentire sanguinis flores respondent testari.\n\n** This is a relative URL: [example.png](assets/example.png) **.\n\n![Image](assets/example.png)\n\n> Videri vias quid Ausoniae sua flores ante, reminiscitur fuit est. Semel\n> [hectora](http://silvaque.org/) peregrinaeque rudem exercent in, Troiana si\n> Asida instabilesque somno sed.\n\n## Iam vota cui dilataque peterem\n\nTinxit lumina lacer liquidarum Aiax si mergitur sed fueris capitisque **et\ncadit** contigerant rectum [ferar](http://prosternit.com/quoque.html) temperat.\nMonet caput adsensere Ityn furentibus gelidos.",
@@ -77,7 +78,7 @@
         },
         {
           "language": "jsonld",
-          "code": "{\n  \"a\": \"http://www.google.es\",\n  \"b\": 198,\n  \"d\": \"agreed\",\n  \"@context\": \"https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/context.jsonld\"\n}",
+          "code": "{\n  \"@context\": \"https://avillar.github.io/bblocks-sandbox/build/annotated/sandbox/my-building-block/context.jsonld\",\n  \"a\": \"http://www.google.es\",\n  \"b\": 198,\n  \"d\": \"agreed\"\n}",
           "url": "https://avillar.github.io/bblocks-sandbox/build/tests/sandbox/my-building-block/example_3_1.jsonld"
         },
         {
