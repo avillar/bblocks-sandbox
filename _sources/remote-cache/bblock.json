@@ -20,6 +20,5 @@
   "conformanceClasses": [
     "http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/historical-location",
     "http://www.opengis.net/spec/iot_sensing/1.1/conf/datamodel/thing"
-  ],
-  "schema": "https://defs-dev.opengis.net/static/sample-schema.yml"
+  ]
 }
